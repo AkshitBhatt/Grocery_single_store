@@ -52,6 +52,11 @@
 
 body{
   overflow-x: hidden;
+  border: 2px solid;
+}
+
+html{
+  overflow-x: hidden;
 }
 
 .header {
@@ -126,7 +131,8 @@ font-family: layregular;
   /* background-color: #E9FAF3; */
   background-image: url(images/pexels-pixabay-264636.svg);
   position: relative;
-  height: 616px;
+  height: 38.5rem;  
+  /* height: auto; */
   justify-content: space-between;
 }
 
@@ -143,7 +149,7 @@ font-family: layregular;
 }
 
 .heading h1 {
-  font-size: 80px;
+  font-size: 5rem;
   /* width: 20%; */
   /* background-color: rebeccapurple; */
 }
@@ -152,16 +158,16 @@ font-family: layregular;
 }
 
 .image {
-  position: absolute;
-  width: 689px;
+  /* position: absolute; */
+  width: 30%;
   /* height: 607px; */
-  right: 15%;
+  /* right: 15%; */
 }
 
 .flower {
   position: absolute;
-  width: 261px;
-  height: 181px;
+  width: 16.32rem;
+  height: 11.32rem;
   left: 25%;  
   bottom: 0;
 }
@@ -179,6 +185,7 @@ font-family: layregular;
   z-index: 1;
   top: 20%;
   margin: -5rem;
+  /* overflow: hidden; */
 }
 
 .heading button {
@@ -195,9 +202,9 @@ font-family: layregular;
 
 .arrow {
   position: absolute;
-  height: 116px;
-  width: 50px;
-  left: 0;
+  height: 7.25rem;
+  width: 3.13rem;
+  left: 1px;
   top: 45%;
   padding: 1rem;
   background-color: white;
@@ -206,8 +213,8 @@ font-family: layregular;
 
 .arrow1 {
   position: absolute;
-  height: 116px;
-  width: 50px;
+  height: 7.25rem;
+  width: 3.13rem;
   right: 0;
   top: 45%;
   padding: 1rem;
@@ -221,26 +228,27 @@ font-family: layregular;
   /* margin: 2rem 0 2rem 4rem; */
   /* gap: 3rem; */
   font-family: layregular;
+  flex-wrap: wrap;
 }
 
 .category h1{
   margin: 4rem 0 0 4rem;
-  font-size: 50px;
+  font-size: 3.12rem;
 }
 
 
 .shop {
   display: flex;
   justify-content: space-around;
-  height: 193px;
-  width: 240px;
+  height: 12.07rem;
+  width: 15rem;
   padding: 3rem;
   flex-direction: column;
   background-color: white;
   border-radius: 10%;
   /* background-color: #3BD28C; */
   box-shadow: 0 0 5px 1px lightgrey;
-  /* position: relative; */
+  position: relative;
 }
 
 
@@ -249,8 +257,8 @@ font-family: layregular;
   align-items: center;
   margin: 4rem;
   justify-content: space-between;
-  position: relative;
-  
+  /* position: relative; */
+  flex-wrap: wrap;
   
 }
 
@@ -294,7 +302,7 @@ font-family: layregular;
   justify-content: space-around;
   text-align: center;
   padding: 0.5rem 3.5rem;
-  border-radius: 27px;
+  border-radius: 1.69rem;
   font-size: 1.2rem;
   border: none;
 }
@@ -305,7 +313,7 @@ font-family: layregular;
   background-color: #e1fff1;
   color: #3bd28c;
   font-size: 0.8rem;
-  border-radius: 27px;
+  border-radius: 1.69rem;
   padding: 0.5rem;
 }
 
@@ -313,7 +321,7 @@ font-family: layregular;
   background-color: #ffbb44;
   color: #fff;
   padding: 0.2rem 0.5rem;
-  border-radius: 27px;
+  border-radius: 1.69rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -378,26 +386,26 @@ font-family: layregular;
 }
 
 .offer {
-  font-size: 30px;
+  font-size: 1.88rem;
   font-family: lightitalic;
 }
 
 .fandv {
-  font-size: 80px;
+  font-size: 5rem;
   /* font-size: ; */
   font-family: layregular;
 }
 
 .t-off {
-  font-size: 80px;
+  font-size: 5rem;
   font-family: layregular;
 
 }
 
 .text1 button {
-  width: 233px;
-  height: 64px;
-  border-radius: 27px;
+  width: 14.57rem;
+  height: 4rem;
+  border-radius: 1.69rem;
   border: none;
   background-color: #FFBB44;
   color: white;
@@ -461,7 +469,8 @@ font-family: layregular;
   font-size: 1rem;
   box-shadow: 0px 10px 30px #00000008;
   padding-bottom: 1rem;
-  border-radius: 20px;
+  border-radius: 1.26rem
+  ;
   /* width: 30rem; */
   margin: 1rem;
 }

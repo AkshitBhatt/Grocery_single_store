@@ -1,0 +1,149 @@
+
+@media (max-width: 1476px) {
+  .search {
+    width: 29rem;
+  }
+  .flower {
+    left: 40% !important;
+  }
+  .carrot {
+    top: 8rem !important;
+    margin: -9rem !important;
+  }
+  .meal {
+    width: 25rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 63.5% !important;
+  }
+  .header img {
+    /* width: 8rem; */
+  }
+  .search {
+    width: 10rem;
+  }
+  .flower {
+    left: 32% !important;
+  }
+
+  .group {
+    width: 54rem !important;
+  }
+}
+
+@media (max-width: 888px) {
+  html {
+    position: static;
+  }
+  .carrot {
+    width: 22% !important;
+  }
+  .image {
+    position: absolute;
+    left: 40%;
+    bottom: 0%;
+  }
+  .apple {
+    width: 14rem;
+  }
+  .flower {
+    left: 42% !important;
+    width: 12%;
+  }
+  .meal {
+    width: 90%;
+  }
+
+  .im{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    margin: 0 0;
+
+  }
+  .topnav1 {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    margin: 0 0;
+  }
+  .grocery :last-child {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    margin: 0 0;
+  }
+  .grocery{
+    justify-content: center;
+  }
+  .stories1 {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav img{
+    width: 2rem;
+  }
+  .prodects {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .prodects-1 {
+    align-items: center;
+  }
+  .topnav {
+    padding-bottom: 2rem !important;
+  }
+
+  .off {
+    align-items: start;
+  }
+  .group {
+    width: 42rem !important;
+  }
+ 
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 50% !important;
+  }
+
+  .image {
+    left: 61%;
+  }
+  .carrot {
+    left: 100% !important;
+  }
+  .group {
+    width: 34rem !important;
+  }
+  .topnav {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 39% !important;
+  }
+
+  .grocery :nth-child(6) {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    margin: 0 0;
+  }
+  .carrot {
+    left: 103% !important;
+  }
+  .location  {
+    font-size: 1.5rem;
+  }
+  .topnav {
+    font-size: 1.5rem;
+  }
+ 
+ 
+}
