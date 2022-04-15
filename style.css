@@ -90,6 +90,8 @@ html{
   height: 3rem;
   border: none;
   font-family: laymedium;
+  border: 1px solid gray;
+
 }
 
 .store{
@@ -113,8 +115,19 @@ html{
 }
 
 
+#akshit{
+  border: none;
+  background-color: #fff;
+}
 
-
+#account{
+  border: none;
+  background-color: #fff;
+}
+#address{
+  border: none;
+  background-color: #fff;
+}
 .mid {
   display: flex;
 /* flex-direction: row; */
@@ -124,6 +137,11 @@ justify-content: space-between;
 width: 50%;
 font-family: layregular;
   
+}
+
+.mid form select {
+  border: none;
+  background-color: #fff;
 }
 
 .mid1 {
@@ -249,6 +267,12 @@ font-family: layregular;
   /* background-color: #3BD28C; */
   box-shadow: 0 0 5px 1px lightgrey;
   position: relative;
+  cursor: pointer;
+}
+
+.shop:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 0 5px 1px lightgrey;
 }
 
 
@@ -345,6 +369,13 @@ font-family: layregular;
   flex-direction: column;
   text-align: center;
   justify-content: space-between;
+  cursor: pointer;
+}
+
+
+.prodects-1:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 0 5px 1px lightgrey;
 }
 .fruit-text {
   color: #3bd28c;
@@ -419,6 +450,38 @@ font-family: layregular;
   display: flex;
   flex-direction: column;
   gap: 3rem;
+}
+
+.cover {
+  object-fit: cover;
+  width: 150px;
+  height: 94px;
+}
+
+.cover1 {
+  object-fit: cover;
+  width: 99px;
+  height: 83px;
+}
+.cover2 {
+  object-fit: cover;
+  width: 101px;
+  height: 40px;
+}
+.cover3 {
+  object-fit: cover;
+  width: 190px;
+  height: 70px;
+}
+.cover4 {
+  object-fit: cover;
+  width: 190px;
+  height: 80px;
+}
+.cover5 {
+  object-fit: cover;
+  width: 125px;
+  height: 47px;
 }
 
 
