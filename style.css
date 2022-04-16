@@ -81,16 +81,24 @@ html{
   /* align-items: center; */
 }
 
+.nav1{
+  display: none;
+}
+.nav1 img {
+  width: 5%;
+}
+
 .topnav1{
   display: flex;
   gap: 1.5rem;
 }
 .search {
-  width: 47rem;
+  width: 80%;
   height: 3rem;
   border: none;
   font-family: laymedium;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
+  /* padding: 0 10%; */
 
 }
 
@@ -118,15 +126,20 @@ html{
 #akshit{
   border: none;
   background-color: #fff;
+  cursor: pointer;
 }
 
 #account{
   border: none;
   background-color: #fff;
+  cursor: pointer;
+
 }
 #address{
   border: none;
   background-color: #fff;
+  cursor: pointer;
+
 }
 .mid {
   display: flex;
@@ -216,6 +229,12 @@ font-family: layregular;
   top: 10;
   /* color: #FFBB44; */
   background-color: #FFBB44;
+  cursor: pointer;
+}
+
+.heading button:hover{
+  /* color: green; */
+  background-color: green;
 }
 
 .arrow {
@@ -261,7 +280,7 @@ font-family: layregular;
   height: 12.07rem;
   width: 15rem;
   padding: 3rem;
-  flex-direction: column;
+  /* flex-direction: column; */
   background-color: white;
   border-radius: 10%;
   /* background-color: #3BD28C; */
@@ -329,6 +348,12 @@ font-family: layregular;
   border-radius: 1.69rem;
   font-size: 1.2rem;
   border: none;
+  cursor: pointer;
+}
+
+
+.view:hover {
+  background-color: #FFBB44;
 }
 
 .off {
@@ -339,6 +364,10 @@ font-family: layregular;
   font-size: 0.8rem;
   border-radius: 1.69rem;
   padding: 0.5rem;
+}
+
+.off:hover {
+  background-color: green;
 }
 
 .add-card {
@@ -352,7 +381,10 @@ font-family: layregular;
   border: none;
   gap: 0.5rem;
 }
+.add-card:hover{
+  background-color: green;
 
+}
 .img-2 {
   width: 13.5rem;
 }
@@ -370,11 +402,13 @@ font-family: layregular;
   text-align: center;
   justify-content: space-between;
   cursor: pointer;
+  transition: all .2s ease-in-out;
 }
 
 
 .prodects-1:hover {
-  transform: translateY(-1.2rem);
+  transform: scale(1.1);
+  /* transform: translateY(-1.2rem); */
   box-shadow: 0 0 5px 1px lightgrey;
 }
 .fruit-text {
@@ -442,6 +476,11 @@ font-family: layregular;
   color: white;
   font-family: layregular;
   font-size: 22px;
+  cursor: pointer;
+}
+
+.text1 button:hover {
+  background-color: green;
 }
 
 .b-brand {
@@ -642,7 +681,7 @@ font-family: layregular;
   color: #888888;
 }
 .play-store img {
-  width: 35%;
+  width: 6%;
 }
 
 .copy {

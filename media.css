@@ -13,15 +13,20 @@
   .meal {
     width: 25rem;
   }
+  .nav input{
+    width: 20rem;
+  }
 }
-
+@media (max-width:1215px){
+  .nav input{
+    width: 15rem;
+  }
+}
 @media (max-width: 1024px) {
   html {
     font-size: 63.5% !important;
   }
-  .header img {
-    /* width: 8rem; */
-  }
+  
   .search {
     width: 10rem;
   }
@@ -32,22 +37,117 @@
   .group {
     width: 54rem !important;
   }
+  .topnav1 {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    margin: 0 0;
+  }
 }
 
 @media (max-width: 888px) {
   html {
     position: static;
   }
+
+  .img-1 {
+    width: 20%;
+  }
+  .img-1 img {
+    width: 100%;
+  }
+
+  .text1{
+    padding: 2rem;
+  }
+
+  .text1 button {
+    font-size: 1.5rem;
+  }
+  .search {
+    width: 40%;
+    font-size: 1.5vw;
+    /* padding-left: 4%; */
+  }
+  .nav1 img {
+    width: 15%;
+}
+.heading button {
+  width: 60%;
+}
+.heading p{
+  font-size: 1.5rem;
+}
+
+.gro-img {
+  text-align: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+  /* .search {
+    width: 40%;
+    height: 3rem;
+    border: none;
+    font-family: laymedium;
+    border: 1px solid gray; */
+    /* padding: 0 10%; */
+  
+  /* } */
+  .locate {
+    width: 4%;
+  }
   .carrot {
     width: 22% !important;
+  }
+  /* .gro-img { */
+    /* display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center; */
+  /* } */
+  
+  .nav{
+    display: none;
+  }
+  .nav1 {
+    display: flex;
+
+  }
+  .shop{
+    width: 50%;
+    
+  }
+
+  .shop p {
+    font-size: 2rem;
   }
   .image {
     position: absolute;
     left: 40%;
     bottom: 0%;
   }
-  .apple {
-    width: 14rem;
+
+  .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 90%; */
+  }
+
+  .images1{
+    width: 90%;
+    font-size: 2rem;
+  }
+  .fruit-text {
+    font-size: 1.5rem;
+  }
+  .b-biscuits {
+    font-size: 2rem;
+  }
+  .dollar {
+    font-size: 2rem;
   }
   .flower {
     left: 42% !important;
@@ -57,14 +157,34 @@
     width: 90%;
   }
 
-  .im{
+  .view {
+    font-size: 2rem;
+  }
+
+  .meal-text {
+   align-content: flex-start;
+  }
+
+  .meal-text1,.date,.stories1 h1,.about-meal,.read {
+    color: #555555;
+    font-size: 2rem;
+}
+
+  .im,.prathmesh{
     position: absolute;
     top: -9999px;
     left: -9999px;
     margin: 0 0;
 
   }
-  .topnav1 {
+
+  .play-store img {
+    width: 15%;
+}
+  .add-card {
+    width: 30%;
+  }
+  .topnav1,.nasir {
     position: absolute;
     top: -9999px;
     left: -9999px;
@@ -78,6 +198,7 @@
   }
   .grocery{
     justify-content: center;
+    height: 3vh;
   }
   .stories1 {
     display: flex !important;
@@ -85,14 +206,23 @@
     align-items: center;
   }
   .nav img{
-    width: 2rem;
+    width: 3rem;
   }
   .prodects {
     display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: repeat(1, 1fr) !important;
   }
   .prodects-1 {
     align-items: center;
+    width: 90%;
+    /* background-color: aqua; */
+  }
+
+  .img-2 {
+    width: 90%;
+  }
+  .apple {
+    width: 65%;
   }
   .topnav {
     padding-bottom: 2rem !important;
@@ -100,6 +230,8 @@
 
   .off {
     align-items: start;
+    width: 30%;
+    font-size: 2rem;
   }
   .group {
     width: 42rem !important;
@@ -147,3 +279,10 @@
  
  
 }
+
+@media (max-width:490px) {
+  .add-card {
+    width: 50% !important; 
+  }
+}
+
